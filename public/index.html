@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>ITEA-JS PROFESSIONAL - LESSON 4</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <style>
+    .magic .icon{
+      width: 100px;
+      height: 100px;
+      background: url('images/magic.png') no-repeat;
+    }
+    #root {
+      display: flex;
+    }
+    .availableStaff {
+      border: 1px solid black;
+      width: 350px;
+      position: relative;
+    }
+    .availableStaffSpan{
+      margin-left: 10px;
+      margin-right: 250px
+    }
+    .myTeam {
+      border: 1px solid black;
+      border-left: none;
+      width: 230px;
+      padding-left: 10px
+    }
+    .availableStaff div {
+      margin: 5px 0 5px 5px;
+    }
+    .availableStaff div:last-child {
+      margin-bottom: 10px;
+    }
+    .hide {
+      position: absolute;
+      right: 10px;
+    }
+
+    .type {
+      position: absolute;
+      left: 190px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div>
+    <span class="availableStaffSpan">Доступные сотрудники</span>
+    <span>Моя команда</span>
+  </div>
+  <div id="root">
+
+  </div>
+
+  <script src="js/bundle.js"></script>
+
+</body>
+</html>
